@@ -1,9 +1,8 @@
-
 ```uv --version
+
 ```
 
-
-```import shutil
+````import shutil
 print(shutil.which("uv"))```
 
 ```pip install uv```
@@ -33,11 +32,17 @@ print(shutil.which("uv"))```
 
 #another  terminal after activatiing environment
 
-```
+````
+
 streamlit run streamlit_app.py
+
 ```
 
 #another  terminal after activatiing environment
 ```
+
 uvicorn main:app --reload --port 8000
+
+```
+
 ```
